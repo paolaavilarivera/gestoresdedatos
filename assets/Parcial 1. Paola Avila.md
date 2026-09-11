@@ -71,19 +71,13 @@ Diseñar e implementar una base de datos geoespacial a partir del Conjunto Nacio
 
 3. Diseñar un modelo de datos que permita relacionar los objetos geoespaciales, sus características y el nivel de prioridad asignado.
 
-4. Incorporar al modelo de datos relaciones que permitan representar dependencias entre objetos fuente y objetos derivados.
+4. Implementar una base de datos geoespacial que permita almacenar, gestionar y consultar la información seleccionada del CNIT 2025.
 
-5. Implementar la base de datos utilizando tecnologías que permitan almacenar y consultar información geoespacial.
+5. Desarrollar consultas que permitan analizar los objetos de acuerdo con sus características, ubicación, relaciones y nivel de prioridad.
 
-6. Desarrollar consultas para analizar los objetos de acuerdo con sus características, ubicación, relaciones y nivel de prioridad.
+6. Analizar la distribución espacial y las características de los objetos correspondientes a cada nivel de prioridad.
 
-7. Analizar la distribución espacial y frecuencia de los objetos correspondientes a cada nivel de prioridad.
-
-8. Identificar variables que posteriormente puedan utilizarse como insumo para técnicas de Ciencia de Datos orientadas a apoyar los procesos de clasificación y priorización.
-
-9. Evaluar la capacidad de adaptación del modelo propuesto ante la transición de la estructura actual de objetos hacia el nuevo esquema metodológico.
-
-10. Establecer las bases para una posterior evaluación utilizando información proveniente de los procesos de producción y actualización.
+7. Evaluar la capacidad del modelo propuesto para adaptarse al cambio metodológico previsto e identificar variables que posteriormente puedan utilizarse en técnicas de Ciencia de Datos orientadas a mejorar los procesos de clasificación y priorización.
 
 ## 3. Alcance del proyecto
 
@@ -148,6 +142,8 @@ Por este motivo, el proyecto deberá entenderse como una **prueba de concepto y 
 ### Fuente
 
 Instituto Nacional de Estadística y Geografía (INEGI).
+
+**Enlace de consulta:** https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=794551163047
 
 ### Descripción
 
