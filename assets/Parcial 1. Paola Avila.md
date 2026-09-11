@@ -1,9 +1,10 @@
 # Base de datos geoespacial para el análisis y priorización de objetos del Conjunto Nacional de Información Topográfica
 
 ### Maestría en Ciencia de Datos
-Materia: Base de Datos para Ciencia de Datos
-Profesora: M.C. Blanca Esthela Torres Ramírez
-Alumna: Paola de Jesús Ávila Rivera
+
+**Materia:** Base de Datos para Ciencia de Datos  
+**Profesora:** M.C. Blanca Esthela Torres Ramírez  
+**Alumna:** Paola de Jesús Ávila Rivera  
 
 ## 1. Descripción del proyecto
 
