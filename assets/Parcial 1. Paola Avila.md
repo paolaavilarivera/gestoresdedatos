@@ -51,6 +51,14 @@ El proyecto permitirá:
 * Preparar los datos para futuros análisis mediante técnicas de Ciencia de Datos.
 * Evaluar la viabilidad de la propuesta antes de incorporar información interna de producción.
 
+### Problema que se desea resolver
+
+Los objetos que integran la información topográfica presentan diferentes características, niveles de dinámica e importancia dentro de los procesos de actualización. Sin embargo, su atención no necesariamente parte de un esquema de priorización que considere de manera conjunta aspectos como su relación con riesgos, infraestructura estratégica, función territorial y dependencia con otros objetos.
+
+Ante el cambio metodológico previsto, en el que algunos objetos podrán obtenerse como derivados de otros, resulta necesario contar con una estructura de datos que permita representar estas relaciones y analizar qué elementos deberían tener mayor prioridad de actualización.
+
+El problema consiste, por tanto, en determinar cómo organizar y relacionar estas características dentro de una base de datos geoespacial que permita establecer y posteriormente evaluar criterios de priorización para los objetos de información topográfica.
+
 ## 2. Objetivo general
 
 Diseñar e implementar una base de datos geoespacial a partir del Conjunto Nacional de Información Topográfica 2025 que permita integrar y analizar las características, relaciones y niveles de prioridad de sus objetos espaciales, considerando su posible adaptación al nuevo modelo metodológico de generación de información geográfica y su posterior aplicación en estrategias de actualización.
@@ -110,6 +118,18 @@ Se considerarán, de acuerdo con su disponibilidad:
 ### Tecnologías propuestas
 
 Se contempla utilizar PostgreSQL, PostGIS, SQL, Python y QGIS para el almacenamiento, gestión, procesamiento, consulta y análisis de la información.
+
+### Funcionalidades propuestas
+
+La base de datos permitirá:
+
+* Almacenar y consultar los objetos geoespaciales seleccionados del CNIT 2025;
+* Asociar cada tipo de objeto con los criterios y el nivel de prioridad correspondiente;
+* Representar las relaciones existentes entre objetos fuente y objetos derivados;
+* Realizar consultas por tipo de objeto, componente geométrico, ubicación y nivel de prioridad;
+* Obtener la cantidad y distribución de objetos correspondiente a cada nivel de prioridad;
+* Identificar objetos cuya actualización pueda tener implicaciones sobre otros elementos derivados;
+* Generar conjuntos de datos que posteriormente puedan utilizarse para análisis espaciales y técnicas de Ciencia de Datos.
 
 ### Limitaciones
 
